@@ -13,7 +13,7 @@ public class SecondDaoImpl implements SecondDao{
 	public List<SecondModel> getList() {
 		
 		List<SecondModel> list = new ArrayList<>();
-		list.add(new SecondModel("varun",10));
+		list.add(new SecondModel("First",10));
 		list.add(new SecondModel("test",11));
 		
 		return list;

@@ -16,7 +16,7 @@ public class SecondController {
 	@Autowired
 	SecondService service;
 	
-	@RequestMapping(method = RequestMethod.GET , path="/")
+	@RequestMapping(method = RequestMethod.GET , path="/first")
 	public List<SecondModel> getList(){
 		return service.getlist();
 	}
